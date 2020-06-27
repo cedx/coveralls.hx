@@ -1,0 +1,16 @@
+--class-path src
+--define analyzer-optimize
+--library thenshim
+--library tink_cli
+--library which
+
+coveralls.BranchCoverage
+coveralls.BranchData
+coveralls.FunctionCoverage
+coveralls.FunctionData
+coveralls.LcovException
+coveralls.LineCoverage
+coveralls.LineData
+coveralls.Record
+coveralls.Report
+coveralls.Token

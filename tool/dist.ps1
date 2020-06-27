@@ -5,4 +5,4 @@ Set-Location (Split-Path $PSScriptRoot)
 tool/clean.ps1
 tool/version.ps1
 tool/build.ps1
-Get-ChildItem lib/php -Exclude coveralls | Remove-Item -Recurse
+Get-ChildItem lib/php -Exclude coveralls | Remove-Item -Force -Recurse
