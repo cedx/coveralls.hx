@@ -1,11 +1,10 @@
 --define js-es=6
---library hxnodejs
+--library hxnodejs:12.1.0
 share/build.hxml
 
 --each
---dce full
 --js bin/coveralls.js
 --main coveralls.Program
 
 --next
---js lib/js/coveralls.js
+--js lib/js/bundle.js

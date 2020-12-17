@@ -1,0 +1,4 @@
+--jvm bin/coveralls.jar
+--library hxjava:3.2.0
+--main coveralls.Program
+share/build.hxml

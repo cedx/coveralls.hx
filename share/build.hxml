@@ -1,16 +1,18 @@
 --class-path src
+--dce full
 --define analyzer-optimize
---library thenshim
---library tink_cli
---library which
+--library asys:0.4.0
+--library lcov:1.0.4
+--library tink_cli:0.5.1
+--library tink_core:1.27.1
+--library tink_http:0.9.1
+--library which:1.0.2
 
-coveralls.BranchCoverage
-coveralls.BranchData
-coveralls.FunctionCoverage
-coveralls.FunctionData
-coveralls.LcovException
-coveralls.LineCoverage
-coveralls.LineData
-coveralls.Record
-coveralls.Report
-coveralls.Token
+coveralls.Client
+coveralls.ClientException
+coveralls.Configuration
+coveralls.GitCommit
+coveralls.GitData
+coveralls.GitRemote
+coveralls.Job
+coveralls.SourceFile

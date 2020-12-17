@@ -1,9 +1,13 @@
 --class-path src
 --class-path test
---library mcover
---library thenshim
---library tink_cli
---library utest
---library which
---macro mcover.MCover.coverage([''], ['src'])
+--define coverage-lcov-reporter=var/lcov.info
+--library asys:0.4.0
+--library instrument:1.1.0
+--library lcov:1.0.4
+--library tink_cli:0.5.1
+--library tink_core:1.27.1
+--library tink_http:0.9.1
+--library tink_unittest:0.7.0
+--library which:2.0.2
+--macro instrument.Instrumentation.coverage(['coveralls'], ['src'])
 --main TestAll

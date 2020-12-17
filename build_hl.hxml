@@ -1,4 +1,3 @@
---dce full
+--hl bin/coveralls.hl
 --main coveralls.Program
---neko run.n
 share/build.hxml
