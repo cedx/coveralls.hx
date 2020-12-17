@@ -15,8 +15,9 @@
 *.yaml text
 *.yml text
 
+*.hl binary
 *.ico binary
+*.jar binary
 *.jpg binary
-*.n binary
 *.pdf binary
 *.png binary
